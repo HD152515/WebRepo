@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>자바 스크립트 실습_12</title>
+<!-- 20170829_1 -->
+<script>
+	function changeColor(color) {
+		console.log(color);
+		var c = document.getElementById("container");
+		c.style.backgroundColor = color;
+	}
+	
+	function toUpperCase(){
+		var w = document.getElementById("word");
+		w.value = w.value.toUpperCase();
+	}
+	
+	function addBorder(){
+		var x = document.getElementById("box");
+		x.style.border = "3px solid red"
+	}
+	
+	function removeBorder(){
+		var y = document.getElementById("box");
+		y.style.border = ""
+	}
+</script>
+</head>
+<body onload = "alert('웹 페이지 로딩됨');">
+<div id = "container">
+	<input type = "radio" name = "color" onclick = "changeColor('yellow');">노란색
+	<input type = "radio" name = "color" onclick = "changeColor('blue');">파란색
+	<input type = "radio" name = "color" onclick = "changeColor('white');">원래대로
+	<br>
+	<input type = "text" id = "word" onchange = "toUpperCase();">
+	<br>
+	<div id = "box" onmouseover = "addBorder();" onmouseout = "removeBorder();">
+	
+	마우스를 위에 올려보세요
+	</div>
+</div>
+
+</body>
+</html>

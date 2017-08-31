@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS 주석 */
+/* 20170822_1 */
+*{
+color:blue; 
+text-align : center;
+}
+h1{
+	background-color:yellow;
+	border:2px solid; 
+}
+h3{
+	color:pink;
+	          text-align:right; 
+}
+<!-- id 선택자 / 한개밖에 못줌 -->
+#text1{
+	font-weight:bold;
+}
+p.text2{
+	font-style:italic;
+}
+h1, h3{
+	text-decoration: underline;
+}
