@@ -1,0 +1,149 @@
+@charset "utf-8";
+	.img1{
+		width:100vw;
+		height:100vh;
+		position:absoulute;
+		background-repeat: no-repeat;
+		background-attachment:fixed;
+		background-image: url("../image/디즈니랜드.jpg");
+		background-position: center top;
+		background-size: cover;
+		opacity: 0.5;
+	}
+	
+	.img2{
+		width:100vw;
+		height:100vh;
+		position:absoulute;
+		background-repeat: no-repeat;
+		background-attachment:fixed;
+		background-image: url("../image/디즈니랜드상하이.png");
+		background-position: center center;
+		background-size: cover;
+		opacity: 0.5;
+	} 
+	
+	
+	.img3{
+		width:100vw;
+		height:100vh;
+		position:absoulute;
+		background-repeat: no-repeat;
+		background-attachment:fixed;
+		background-image: url("../image/디즈니랜드도쿄.png");
+		background-position: center top;
+		background-size: cover;
+		opacity: 0.5;
+	}
+		
+	.img4{
+		width:100vw;
+		height:100vh;
+		position:absoulute;
+		background-repeat: no-repeat;
+		background-attachment:fixed;
+		background-image: url("../image/디즈니랜드캘리포니아.png");
+		background-position: center top;
+		background-size: cover;
+		opacity: 0.5;
+	}
+		
+		
+	#p1{
+		font-size: 50px;
+		font-weight: bold;
+		color: white;
+		text-shadow: 0px 4px 4px #000080, 0px 0.5px 4px #000080, 3px 0px 3px #000080;
+		text-align: center;
+		font-family: '210 십대의한마디';
+		margin: 0;
+  		
+	}
+
+	#p2{
+		font-size: 30px;
+		font-weight: bold;
+		color: white;
+		text-shadow: 0px 4px 4px #000080, 0px 0.5px 4px #000080, 3px 0px 3px #000080;
+		text-align: center;
+		font-family: '210 십대의한마디';
+		margin: 0;
+	}
+	#p3{
+		font-size: 50px;
+		font-weight: bold;
+		color: white;
+		text-shadow: 0px 4px 4px #157DEC, 0px 0.5px 4px #157DEC, 3px 0px 3px #157DEC;
+		text-align: center;
+		font-family: '210 십대의한마디';
+		margin: 0;
+		}
+
+	#p4{
+		font-size: 30px;
+		font-weight: bold;
+		color: white;
+		text-shadow: 0px 4px 4px #157DEC, 0px 0.5px 4px #157DEC, 3px 0px 3px #157DEC;
+		text-align: center;
+		font-family: '210 십대의한마디';
+		margin: 0;
+	}
+	
+	#p5{
+		font-size: 50px;
+		font-weight: bold;
+		color: white;
+		text-shadow: 0px 4px 4px #2554C7, 0px 0.5px 4px #2554C7, 3px 0px 3px #2554C7;
+		text-align: center;
+		font-family: '210 십대의한마디';
+		margin: 0;
+  		
+	}
+
+	#p6{
+		font-size: 30px;
+		font-weight: bold;
+		color: white;
+		text-shadow: 0px 4px 4px #2554C7, 0px 0.5px 4px #2554C7, 3px 0px 3px #2554C7;
+		text-align: center;
+		font-family: '210 십대의한마디';
+		margin: 0;
+	}
+	
+	#p7{
+		font-size: 50px;
+		font-weight: bold;
+		color: white;
+		text-shadow: 0px 4px 4px #ff6666, 0px 0.5px 4px #ff6666, 3px 0px 3px #ff6666;
+		text-align: center;
+		font-family: '210 십대의한마디';
+		margin: 0;
+  		
+	}
+
+	#p8{
+		font-size: 30px;
+		font-weight: bold;
+		color: white;
+		text-shadow: 0px 4px 4px #ff6666, 0px 0.5px 4px #ff6666, 3px 0px 3px #ff6666;
+		text-align: center;
+		font-family: '210 십대의한마디';
+		margin: 0;
+	}
+	
+	#introduce_img{
+		vertical-align: text-top;
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+		font-family: '210 십대의한마디';
+	}
+	
+	#introduce_p{
+		font-size: 20px;
+		font-weight: bold;
+		text-align: left;
+		font-family: '210 십대의한마디';
+	}
+	
+	
