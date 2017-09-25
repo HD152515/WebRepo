@@ -31,12 +31,12 @@ public class HelloServlet extends HttpServlet {
 	{
 		// response.getWriter().append("Served at: ").append(request.getContextPath());
 		
-		// ÀÔ·Âµ¥ÀÌÅÍ Ã³¸®
+		//
 		String id = request.getParameter("id");
 		String name = request.getParameter("name");
 		System.out.printf("id : %s  name : %s\n", id, name);
 		
-		// Ãâ·Â µ¥ÀÌÅÍ Content Type ¼³Á¤
+		//
 		response.setContentType("text/html;charset=utf-8");
 		PrintWriter out = response.getWriter();
 		
@@ -47,7 +47,7 @@ public class HelloServlet extends HttpServlet {
 		out.println("</head>");
 		out.println("<body>");
 		out.println("<h1>Hello, Servlet</h1>");
-		out.println("<h1>¾È³ç, ¼­ºí¸´</h1>");
+		out.println("<h1>ì•ˆë…•í•˜ì„¸ìš”</h1>");
 		out.println("<h2>id : " + id + ", name : " + name + "</h2>");
 		out.println("</body>");
 		out.println("</html>");
@@ -58,7 +58,7 @@ public class HelloServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
 	{
-		System.out.println("doPost Ãâ·ÂµÊ");
+		System.out.println("doPost");
 		doGet(request, response);
 	}
 
