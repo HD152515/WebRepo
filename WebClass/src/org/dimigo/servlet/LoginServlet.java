@@ -68,8 +68,6 @@ public class LoginServlet extends HttpServlet {
 //		System.out.println(json.toJSONString());
 //		out.write(json.toJSONString());
 		
-		
-//		Gson Library 사용해서 소스 작성하기
 		 Gson gson = new Gson();
 	      Map<String, Object> map = new HashMap<String, Object>();
 	      map.put("id", id);
