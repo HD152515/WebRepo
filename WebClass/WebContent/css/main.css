@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+body{
+	margin: 0;
+}
+
+a{
+	font-family: '210 와글와글';
+	font-size: 50px;
+	color : black;
+	text-decoration: overline;
+}
+
+h5{
+	padding: 10px 0px 20px 0px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+li{
+	font-family: '210 와글와글';
+	display: inline;
+	padding: 5px;
+	
+}
+ul{
+	padding: 0px;
+}
+
+a.label{
+	padding: 25px 50px 10px 0px;
+	font-size: 30px;
+	
+}
+
+ul li.introduce a.label{
+	color: #545557;
+}
+
+ul li.interest a.label{
+	color: #46a8b2;
+}
+
+ul li.dream a.label{
+	color: #f38166;
+}
+
+ul li.login a.label{
+	color: #fabc1f;
+}
+ul li.register a.label{
+	color: #84BD00;
+}
+
+div.navbar{
+	padding: 35px 75px 0px 75px;
+}
+
+img{
+	height: 100%;
+	width: 100%;
+}
+
+.login img,.register img{
+	position:relative;
+}
+
+.login form{
+	position:absolute;
+	top:43%;
+	left:36%;
+}
+
+.register form {
+	position:absolute;
+	top:28%;
+	left:36%;
+}
+
+form { 
+        margin: 0 auto; 
+        width:250px;
+        padding: 100px;
+    }    
